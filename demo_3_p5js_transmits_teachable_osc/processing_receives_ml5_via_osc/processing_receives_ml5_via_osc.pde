@@ -36,6 +36,8 @@ void setup() {
 
 void draw() {
   background(0);
+  textSize(24); 
+  
   fill(255);
   ellipse(rcvX, rcvY, 200, 75);
   fill(0);
